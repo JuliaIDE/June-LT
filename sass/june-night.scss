@@ -74,63 +74,27 @@
 
 /* Julia Theming */
 
-.cm-s-june-night span.cm-variable.cm-hash-0,
-.cm-s-june-night span.cm-variable-2.cm-hash-0,
-.cm-s-june-night span.cm-def.cm-hash-0 {color: #FFCCCC;}
-.cm-s-june-night span.cm-variable.cm-hash-1,
-.cm-s-june-night span.cm-variable-2.cm-hash-1,
-.cm-s-june-night span.cm-def.cm-hash-1 {color: #FFDBCC;}
-.cm-s-june-night span.cm-variable.cm-hash-2,
-.cm-s-june-night span.cm-variable-2.cm-hash-2,
-.cm-s-june-night span.cm-def.cm-hash-2 {color: #FFEBCC;}
-.cm-s-june-night span.cm-variable.cm-hash-3,
-.cm-s-june-night span.cm-variable-2.cm-hash-3,
-.cm-s-june-night span.cm-def.cm-hash-3 {color: #FFFACC;}
-.cm-s-june-night span.cm-variable.cm-hash-4,
-.cm-s-june-night span.cm-variable-2.cm-hash-4,
-.cm-s-june-night span.cm-def.cm-hash-4 {color: #F5FFCC;}
-.cm-s-june-night span.cm-variable.cm-hash-5,
-.cm-s-june-night span.cm-variable-2.cm-hash-5,
-.cm-s-june-night span.cm-def.cm-hash-5 {color: #E6FFCC;}
-.cm-s-june-night span.cm-variable.cm-hash-6,
-.cm-s-june-night span.cm-variable-2.cm-hash-6,
-.cm-s-june-night span.cm-def.cm-hash-6 {color: #D6FFCC;}
-.cm-s-june-night span.cm-variable.cm-hash-7,
-.cm-s-june-night span.cm-variable-2.cm-hash-7,
-.cm-s-june-night span.cm-def.cm-hash-7 {color: #CCFFD1;}
-.cm-s-june-night span.cm-variable.cm-hash-8,
-.cm-s-june-night span.cm-variable-2.cm-hash-8,
-.cm-s-june-night span.cm-def.cm-hash-8 {color: #CCFFE0;}
-.cm-s-june-night span.cm-variable.cm-hash-9,
-.cm-s-june-night span.cm-variable-2.cm-hash-9,
-.cm-s-june-night span.cm-def.cm-hash-9 {color: #CCFFF0;}
-.cm-s-june-night span.cm-variable.cm-hash-10,
-.cm-s-june-night span.cm-variable-2.cm-hash-10,
-.cm-s-june-night span.cm-def.cm-hash-10 {color: #CCFFFF;}
-.cm-s-june-night span.cm-variable.cm-hash-11,
-.cm-s-june-night span.cm-variable-2.cm-hash-11,
-.cm-s-june-night span.cm-def.cm-hash-11 {color: #CCF0FF;}
-.cm-s-june-night span.cm-variable.cm-hash-12,
-.cm-s-june-night span.cm-variable-2.cm-hash-12,
-.cm-s-june-night span.cm-def.cm-hash-12 {color: #CCE0FF;}
-.cm-s-june-night span.cm-variable.cm-hash-13,
-.cm-s-june-night span.cm-variable-2.cm-hash-13,
-.cm-s-june-night span.cm-def.cm-hash-13 {color: #CCD1FF;}
-.cm-s-june-night span.cm-variable.cm-hash-14,
-.cm-s-june-night span.cm-variable-2.cm-hash-14,
-.cm-s-june-night span.cm-def.cm-hash-14 {color: #D6CCFF;}
-.cm-s-june-night span.cm-variable.cm-hash-15,
-.cm-s-june-night span.cm-variable-2.cm-hash-15,
-.cm-s-june-night span.cm-def.cm-hash-15 {color: #E6CCFF;}
-.cm-s-june-night span.cm-variable.cm-hash-16,
-.cm-s-june-night span.cm-variable-2.cm-hash-16,
-.cm-s-june-night span.cm-def.cm-hash-16 {color: #F5CCFF;}
-.cm-s-june-night span.cm-variable.cm-hash-17,
-.cm-s-june-night span.cm-variable-2.cm-hash-17,
-.cm-s-june-night span.cm-def.cm-hash-17 {color: #FFCCFA;}
-.cm-s-june-night span.cm-variable.cm-hash-18,
-.cm-s-june-night span.cm-variable-2.cm-hash-18,
-.cm-s-june-night span.cm-def.cm-hash-18 {color: #FFCCEB;}
-.cm-s-june-night span.cm-variable.cm-hash-19,
-.cm-s-june-night span.cm-variable-2.cm-hash-19,
-.cm-s-june-night span.cm-def.cm-hash-19 {color: #FFCCDB;}
+.cm-s-june-night {
+  .variable, .variable-2, .def {
+    &.cm-hash-0  {color: #FFCCCC;}
+    &.cm-hash-1  {color: #FFDBCC;}
+    &.cm-hash-2  {color: #FFEBCC;}
+    &.cm-hash-3  {color: #FFFACC;}
+    &.cm-hash-4  {color: #F5FFCC;}
+    &.cm-hash-5  {color: #E6FFCC;}
+    &.cm-hash-6  {color: #D6FFCC;}
+    &.cm-hash-7  {color: #CCFFD1;}
+    &.cm-hash-8  {color: #CCFFE0;}
+    &.cm-hash-9  {color: #CCFFF0;}
+    &.cm-hash-10 {color: #CCFFFF;}
+    &.cm-hash-11 {color: #CCF0FF;}
+    &.cm-hash-12 {color: #CCE0FF;}
+    &.cm-hash-13 {color: #CCD1FF;}
+    &.cm-hash-14 {color: #D6CCFF;}
+    &.cm-hash-15 {color: #E6CCFF;}
+    &.cm-hash-16 {color: #F5CCFF;}
+    &.cm-hash-17 {color: #FFCCFA;}
+    &.cm-hash-18 {color: #FFCCEB;}
+    &.cm-hash-19 {color: #FFCCDB;}
+  }
+}
