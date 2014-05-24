@@ -1,21 +1,22 @@
 .Codemirror-hints {
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-  border: 1px #aaa;
-  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.8);
   /* Text */ }
   .Codemirror-hints ul li {
-    color: black; }
+    color: white; }
     .Codemirror-hints ul li em {
       font-weight: bold;
       color: inherit; }
     .Codemirror-hints ul li.selected {
-      background: #ddf;
-      color: black; }
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #12355c), color-stop(50%, #185282), color-stop(51%, #134979), color-stop(100%, #1e5daa));
+      color: white; }
       .Codemirror-hints ul li.selected em {
         font-weight: bold;
         color: inherit; }
     .Codemirror-hints ul li:hover {
-      background: #eee;
+      background: #333;
       color: black; }
       .Codemirror-hints ul li:hover em {
         color: inherit; }
