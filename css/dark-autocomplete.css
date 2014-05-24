@@ -11,6 +11,7 @@ div.Codemirror-hints {
       color: inherit; }
     div.Codemirror-hints ul li.selected {
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #12355c), color-stop(50%, #185282), color-stop(51%, #134979), color-stop(100%, #1e5daa));
+      /*       background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,93,170,1)), color-stop(100%,rgba(18,53,92,1))); */
       color: white; }
       div.Codemirror-hints ul li.selected em {
         font-weight: bold;

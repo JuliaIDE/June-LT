@@ -14,7 +14,11 @@ div.Codemirror-hints {
     }
 
     &.selected {
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(18,53,92,1)), color-stop(50%,rgba(24,82,130,1)), color-stop(51%,rgba(19,73,121,1)), color-stop(100%,rgba(30,93,170,1)));
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(18,53,92,1)),
+                                                                  color-stop(50%,rgba(24,82,130,1)),
+                                                                  color-stop(51%,rgba(19,73,121,1)),
+                                                                  color-stop(100%,rgba(30,93,170,1)));
+/*       background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,93,170,1)), color-stop(100%,rgba(18,53,92,1))); */
       color: white;
 
       em {
