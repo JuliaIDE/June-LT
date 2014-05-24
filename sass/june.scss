@@ -1,0 +1,71 @@
+.cm-s-june {
+  background: white; color: black;
+  span {
+    &.cm-keyword {color: black; font-weight:bold;}
+    &.cm-atom {color: #219;}
+    &.cm-number {color: #009999;}
+    &.cm-def {color: #833; font-weight: bold;}
+    &.cm-variable {color: black;}
+    &.cm-variable-2 {color: black;}
+    &.cm-variable-3 {color: black;}
+    &.cm-property {color: black;}
+    &.cm-operator {color: black;}
+    &.cm-comment {color: #999988; font-style: italic;}
+    &.cm-string {color: #900;}
+    &.cm-string-2 {color: #dd1144;}
+    &.cm-meta {color: #900; font-weight:bold;}
+    &.cm-error {color: #f00; background: #fdd;}
+    &.cm-qualifier {color: #555;}
+    &.cm-builtin {color: #30a;}
+    &.cm-bracket {color: #997 !important;}
+    &.cm-tag {color: #170;}
+    &.cm-attribute {color: #00c;}
+    &.cm-header {color: blue;}
+    &.cm-quote {color: #090;}
+    &.cm-hr {color: #999;}
+    &.cm-link {color: #00c;}
+    &.cm-symbol {color: #077;}
+
+    /* Unorthodox Styles */
+    &.cm-fade {font-weight: normal; color: #bbb;}
+  }
+
+  .CodeMirror-matchingbracket    { text-decoration: underline;}
+  .CodeMirror-nonmatchingbracket { color: #f00; background: #fdd;}
+
+  div.CodeMirror-cursor {
+    /* Override the skin setting */
+    border-left: 1px solid black !important;
+  }
+
+  .CodeMirror-gutter {
+    background: #eee !important;
+    border-right: 1px solid #bbb;
+  }
+
+  .CodeMirror-selected {
+    background: #eee;
+  }
+}
+
+/* Light Table stuff */
+
+@import 'common';
+
+.cm-s-june {
+  .inline-result, .inline-doc {
+    background: white;
+    color: black;
+    @include border(#e1e1e1)
+  }
+
+  .inline-exception pre {
+    background: #fdd;
+    color: #b55;
+    @include border(#eaa)
+  }
+
+  .inline-doc pre {
+    color: black !important;
+  }
+}

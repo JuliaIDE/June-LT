@@ -1,0 +1,4 @@
+{:+ {:app [;(:lt.objs.plugins/load-js ["june_compiled.js"])
+           (:lt.objs.plugins/load-css "css/DejaVu.css")
+           (:lt.objs.style/provide-theme "june" "css/june.css")
+           (:lt.objs.style/provide-theme "june-night" "css/june-night.css")]}}
