@@ -1,0 +1,21 @@
+.Codemirror-hints {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  border: 1px #aaa;
+  background: rgba(255, 255, 255, 0.9);
+  /* Text */ }
+  .Codemirror-hints ul li {
+    color: black; }
+    .Codemirror-hints ul li em {
+      font-weight: bold;
+      color: inherit; }
+    .Codemirror-hints ul li.selected {
+      background: #eef;
+      color: black; }
+      .Codemirror-hints ul li.selected em {
+        font-weight: bold;
+        color: inherit; }
+    .Codemirror-hints ul li:hover {
+      background: #eee;
+      color: black; }
+      .Codemirror-hints ul li:hover em {
+        color: inherit; }
