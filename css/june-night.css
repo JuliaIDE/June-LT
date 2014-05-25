@@ -57,7 +57,7 @@
       color: #00c; }
     .cm-s-june-night span.cm-symbol {
       color: #fff; }
-    .cm-s-june-night span cm-fade {
+    .cm-s-june-night span.cm-fade {
       font-weight: normal;
       color: #777; }
   .cm-s-june-night div.CodeMirror-cursor {

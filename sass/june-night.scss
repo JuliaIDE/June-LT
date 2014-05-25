@@ -29,7 +29,7 @@
     &.cm-symbol     {color: #fff;}
 
     /* Unorthodox styles */
-    cm-fade {font-weight: normal; color: #777;}
+    &.cm-fade {font-weight: normal; color: #777;}
   }
 
   div.CodeMirror-cursor {
