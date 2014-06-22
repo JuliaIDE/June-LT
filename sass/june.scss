@@ -54,7 +54,8 @@
 @import 'common';
 
 .cm-s-june {
-  .inline-result, .inline-doc {
+
+  .inline-result, .underline-result {
     background: white;
     color: black;
     @include border(#e1e1e1)
@@ -66,7 +67,11 @@
     @include border(#eaa)
   }
 
-  .inline-doc pre {
+  .inline-doc {
+    background: white;
+  }
+
+  .inline-doc pre, .underline-result pre {
     color: black !important;
   }
 }

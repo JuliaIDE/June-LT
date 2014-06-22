@@ -75,7 +75,7 @@
 
 /* Light Table stuff */
 /* Results */
-.cm-s-june .inline-result, .cm-s-june .inline-doc {
+.cm-s-june .inline-result, .cm-s-june .underline-result {
   background: white;
   color: black;
   border: 1px solid #e1e1e1;
@@ -87,5 +87,7 @@
   border: 1px solid #eeaaaa;
   box-shadow: 1px 1px 0px #eeaaaa;
   -webkit-border-radius: 5px; }
-.cm-s-june .inline-doc pre {
+.cm-s-june .inline-doc {
+  background: white; }
+.cm-s-june .inline-doc pre, .cm-s-june .underline-result pre {
   color: black !important; }
