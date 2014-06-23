@@ -55,23 +55,34 @@
 
 .cm-s-june {
 
-  .inline-result, .underline-result {
+  .inline-result, .underline-result > pre {
     background: white;
     color: black;
     @include border(#e1e1e1)
   }
 
-  .inline-exception pre {
-    background: #fdd;
-    color: #b55;
-    @include border(#eaa)
+  .inline-exception {
+    & > pre, & > div {
+      display:inline-block;
+      background: #fdd;
+      color: #b55;
+      padding: 5px 15px 5px 15px;
+      @include border(#eaa);
+
+      a {
+        color: #900;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 
   .inline-doc {
     background: white;
   }
 
-  .inline-doc pre, .underline-result pre {
+  .inline-doc > pre, .underline-result > pre {
     color: black !important;
   }
 }

@@ -84,9 +84,11 @@
   -webkit-border-radius: 5px; }
 .cm-s-june-night .inline-doc pre {
   color: #DCDCCC; }
-.cm-s-june-night .inline-exception pre {
+.cm-s-june-night .inline-exception pre, .cm-s-june-night .inline-exception div {
+  display: inline-block;
   background: #633;
   color: #dee;
+  padding: 5px 10px 5px 10px;
   border: 1px solid #440000;
   box-shadow: 1px 1px 0px #440000;
   -webkit-border-radius: 5px; }

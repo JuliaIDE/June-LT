@@ -75,19 +75,25 @@
 
 /* Light Table stuff */
 /* Results */
-.cm-s-june .inline-result, .cm-s-june .underline-result {
+.cm-s-june .inline-result, .cm-s-june .underline-result > pre {
   background: white;
   color: black;
   border: 1px solid #e1e1e1;
   box-shadow: 1px 1px 0px #e1e1e1;
   -webkit-border-radius: 5px; }
-.cm-s-june .inline-exception pre {
+.cm-s-june .inline-exception > pre, .cm-s-june .inline-exception > div {
+  display: inline-block;
   background: #fdd;
   color: #b55;
+  padding: 5px 15px 5px 15px;
   border: 1px solid #eeaaaa;
   box-shadow: 1px 1px 0px #eeaaaa;
   -webkit-border-radius: 5px; }
+  .cm-s-june .inline-exception > pre a, .cm-s-june .inline-exception > div a {
+    color: #900; }
+    .cm-s-june .inline-exception > pre a:hover, .cm-s-june .inline-exception > div a:hover {
+      text-decoration: underline; }
 .cm-s-june .inline-doc {
   background: white; }
-.cm-s-june .inline-doc pre, .cm-s-june .underline-result pre {
+.cm-s-june .inline-doc > pre, .cm-s-june .underline-result > pre {
   color: black !important; }

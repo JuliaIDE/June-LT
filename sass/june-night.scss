@@ -58,17 +58,21 @@
   .inline-result, .inline-doc {
     background: #404444;
     color: #DCDCCC;
-    @include border(#222)
+    @include border(#222);
   }
 
   .inline-doc pre {
     color: #DCDCCC;
   }
 
-  .inline-exception pre {
-    background: #633;
-    color: #dee;
-    @include border(#400)
+  .inline-exception {
+    pre, div {
+      display:inline-block;
+      background: #633;
+      color: #dee;
+      padding: 5px 10px 5px 10px;
+      @include border(#400);
+    }
   }
 }
 
