@@ -72,6 +72,8 @@
     border-right: 1px solid #bbb; }
   .cm-s-june .CodeMirror-selected {
     background: #eee; }
+  .cm-s-june .CodeMirror-linebackground.error {
+    background: rgba(255, 0, 0, 0.08); }
 
 /* Light Table stuff */
 /* Results */

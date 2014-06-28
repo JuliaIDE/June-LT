@@ -74,9 +74,11 @@
     border-right: 1px solid #000; }
   .cm-s-june-night .CodeMirror-selected {
     background: #444; }
+  .cm-s-june-night .CodeMirror-linebackground.error {
+    background: rgba(255, 50, 50, 0.3); }
 
 /* Light Table stuff */
-.cm-s-june-night .inline-result, .cm-s-june-night .inline-doc {
+.cm-s-june-night .inline-result, .cm-s-june-night .underline-result > pre {
   background: #404444;
   color: #DCDCCC;
   border: 1px solid #222222;
@@ -84,7 +86,7 @@
   -webkit-border-radius: 5px; }
 .cm-s-june-night .inline-doc pre {
   color: #DCDCCC; }
-.cm-s-june-night .inline-exception pre, .cm-s-june-night .inline-exception div {
+.cm-s-june-night .inline-exception > pre, .cm-s-june-night .inline-exception > div {
   display: inline-block;
   background: #633;
   color: #dee;
@@ -92,6 +94,14 @@
   border: 1px solid #440000;
   box-shadow: 1px 1px 0px #440000;
   -webkit-border-radius: 5px; }
+  .cm-s-june-night .inline-exception > pre a, .cm-s-june-night .inline-exception > div a {
+    color: #Ddd; }
+    .cm-s-june-night .inline-exception > pre a:hover, .cm-s-june-night .inline-exception > div a:hover {
+      text-decoration: underline; }
+.cm-s-june-night .inline-doc {
+  background: #404444; }
+.cm-s-june-night .inline-doc > pre, .cm-s-june-night .underline-result > pre {
+  color: #DCDCCC !important; }
 
 /* Julia Theming */
 .cm-s-june-night .variable.cm-hash-0, .cm-s-june-night .variable-2.cm-hash-0, .cm-s-june-night .def.cm-hash-0 {

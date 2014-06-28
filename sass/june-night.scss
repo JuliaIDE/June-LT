@@ -49,13 +49,17 @@
     background: #444;
   }
 
+  .CodeMirror-linebackground.error {
+    background: rgba(255,50,50,0.3);
+  }
+
 }
 
 /* Light Table stuff */
 @import 'common';
 
 .cm-s-june-night {
-  .inline-result, .inline-doc {
+  .inline-result, .underline-result > pre {
     background: #404444;
     color: #DCDCCC;
     @include border(#222);
@@ -66,13 +70,28 @@
   }
 
   .inline-exception {
-    pre, div {
+    & > pre, & > div {
       display:inline-block;
       background: #633;
       color: #dee;
       padding: 5px 10px 5px 10px;
       @include border(#400);
+
+      a {
+        color: #Ddd;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
+  }
+
+  .inline-doc {
+    background: #404444;
+  }
+
+  .inline-doc > pre, .underline-result > pre {
+    color: #DCDCCC !important;
   }
 }
 
