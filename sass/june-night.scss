@@ -8,7 +8,7 @@
     &.cm-number     {color: #DCDCCC;}
     &.cm-def        {color: #DCDCCC; font-weight: bold;}
     &.cm-variable   {color: #aee;}
-    &.cm-variable-2 {color: #ffc;}
+    &.cm-variable-2 {color: #eec;}
     &.cm-variable-3 {color: #fff;}
     &.cm-property   {color: white;}
     &.cm-operator   {color: #F0EFD0;}
@@ -46,7 +46,7 @@
   }
 
   .CodeMirror-selected {
-    background: #444;
+    background: rgba(255,255,255,0.07);
   }
 
 }
@@ -94,26 +94,28 @@
 /* Julia Theming */
 
 .cm-s-june-night {
-  .variable, .variable-2, .def {
-    &.cm-hash-0  {color: #FFCCCC;}
-    &.cm-hash-1  {color: #FFDBCC;}
-    &.cm-hash-2  {color: #FFEBCC;}
-    &.cm-hash-3  {color: #FFFACC;}
-    &.cm-hash-4  {color: #F5FFCC;}
-    &.cm-hash-5  {color: #E6FFCC;}
-    &.cm-hash-6  {color: #D6FFCC;}
-    &.cm-hash-7  {color: #CCFFD1;}
-    &.cm-hash-8  {color: #CCFFE0;}
-    &.cm-hash-9  {color: #CCFFF0;}
-    &.cm-hash-10 {color: #CCFFFF;}
-    &.cm-hash-11 {color: #CCF0FF;}
-    &.cm-hash-12 {color: #CCE0FF;}
-    &.cm-hash-13 {color: #CCD1FF;}
-    &.cm-hash-14 {color: #D6CCFF;}
-    &.cm-hash-15 {color: #E6CCFF;}
-    &.cm-hash-16 {color: #F5CCFF;}
-    &.cm-hash-17 {color: #FFCCFA;}
-    &.cm-hash-18 {color: #FFCCEB;}
-    &.cm-hash-19 {color: #FFCCDB;}
+  span {
+    &.cm-variable, &.cm-variable-2, &.cm-def {
+      &.cm-hash-0  {color: #FFCCCC;}
+      &.cm-hash-1  {color: #FFDBCC;}
+      &.cm-hash-2  {color: #FFEBCC;}
+      &.cm-hash-3  {color: #FFFACC;}
+      &.cm-hash-4  {color: #F5FFCC;}
+      &.cm-hash-5  {color: #E6FFCC;}
+      &.cm-hash-6  {color: #D6FFCC;}
+      &.cm-hash-7  {color: #CCFFD1;}
+      &.cm-hash-8  {color: #CCFFE0;}
+      &.cm-hash-9  {color: #CCFFF0;}
+      &.cm-hash-10 {color: #CCFFFF;}
+      &.cm-hash-11 {color: #CCF0FF;}
+      &.cm-hash-12 {color: #CCE0FF;}
+      &.cm-hash-13 {color: #CCD1FF;}
+      &.cm-hash-14 {color: #D6CCFF;}
+      &.cm-hash-15 {color: #E6CCFF;}
+      &.cm-hash-16 {color: #F5CCFF;}
+      &.cm-hash-17 {color: #FFCCFA;}
+      &.cm-hash-18 {color: #FFCCEB;}
+      &.cm-hash-19 {color: #FFCCDB;}
+    }
   }
 }
