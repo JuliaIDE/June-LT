@@ -26,7 +26,19 @@
     &.cm-quote      {color: #090;}
     &.cm-hr         {color: #999;}
     &.cm-link       {color: #FFCC99;}
-    &.cm-symbol     {color: #fff;}
+    &.cm-symbol     {color: #fff}
+
+    &.cm-searching {
+      background: none;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 2px;
+    }
+
+    &.cm-searching.searching-current {
+      background: rgba(255, 255, 150, 1);
+      border: 1px solid rgba(255, 255, 255, 0);
+      color:black !important;
+    }
 
     /* Unorthodox styles */
     &.cm-fade {font-weight: normal; color: #777;}

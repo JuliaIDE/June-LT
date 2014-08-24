@@ -26,12 +26,22 @@
     &.cm-link {color: #00c;}
     &.cm-symbol {color: #077;}
 
+    &.cm-searching {
+      background: none;
+      border: 1px solid rgba(0,0,0, 0.2);
+      border-radius: 2px;
+    }
+
+    &.cm-searching.searching-current {
+      background: rgba(255, 255, 0, 0.5);
+    }
+
     /* Unorthodox Styles */
     &.cm-fade {font-weight: normal; color: #bbb;}
   }
 
-  .CodeMirror-matchingbracket    { text-decoration: underline;}
-  .CodeMirror-nonmatchingbracket { color: #f00; background: #fdd;}
+  .CodeMirror-matchingbracket    { text-decoration: underline; }
+  .CodeMirror-nonmatchingbracket { color: #f00; background: #fdd; }
 
   div.CodeMirror-cursor {
     /* Override the skin setting */
