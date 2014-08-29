@@ -1,8 +1,8 @@
-{:+ {:app [(:lt.objs.plugins/load-css "css/DejaVu.css")
+{:+ {:app [(:lt.objs.plugins/load-js "june_compiled.js")
+           (:lt.objs.plugins/load-css "css/DejaVu.css")
            (:lt.objs.style/provide-theme "june" "css/june.css")
            (:lt.objs.style/provide-theme "june-night" "css/june-night.css")
 
            (:lt.objs.style/font-settings ["DejaVu Sans Mono", "Consolas", "Liberation Mono", "Courier", "monospace"] 9 1.5)]
 
-     :app.june-dark-autocomplete [(:lt.objs.plugins/load-css "css/dark-autocomplete.css")]
-     }}
+     :app.june-dark-autocomplete [(:lt.objs.plugins/load-css "css/dark-autocomplete.css")]}}
