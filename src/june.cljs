@@ -7,7 +7,8 @@
 (defn highlight [selector cm line dom]
   (doseq [node (-> dom (.querySelectorAll selector))
           :let [hash (mod (hash (.-innerText node)) 20)]]
-    (.add (.-classList node) (str "cm-hash-" hash))))
+    (.add (.-classList node) (str "cm-hash-" hash)))
+  dom)
 
 (defn selector [types]
   (->> types (map name) (map #(str "span.cm-" %)) (str/join ", ")))
