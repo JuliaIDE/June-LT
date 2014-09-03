@@ -17,7 +17,7 @@
     .cm-s-june-night span.cm-variable {
       color: #aee; }
     .cm-s-june-night span.cm-variable-2 {
-      color: #ffc; }
+      color: #eec; }
     .cm-s-june-night span.cm-variable-3 {
       color: #fff; }
     .cm-s-june-night span.cm-property {
@@ -57,6 +57,15 @@
       color: #FFCC99; }
     .cm-s-june-night span.cm-symbol {
       color: #fff; }
+    .cm-s-june-night span.cm-searching {
+      background: none;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 2px; }
+    .cm-s-june-night span.cm-searching.searching-current {
+      background: #ffff96;
+      border: none;
+      padding: 1px;
+      color: black !important; }
     .cm-s-june-night span.cm-fade {
       font-weight: normal;
       color: #777; }
@@ -73,9 +82,7 @@
     background: #272727 !important;
     border-right: 1px solid #000; }
   .cm-s-june-night .CodeMirror-selected {
-    background: #444; }
-  .cm-s-june-night .CodeMirror-linebackground.error {
-    background: rgba(255, 50, 50, 0.3); }
+    background: rgba(255, 255, 255, 0.07); }
 
 /* Light Table stuff */
 .cm-s-june-night .inline-result, .cm-s-june-night .underline-result > pre {
@@ -103,44 +110,47 @@
 .cm-s-june-night .inline-doc > pre, .cm-s-june-night .underline-result > pre {
   color: #DCDCCC !important; }
 
-/* Julia Theming */
-.cm-s-june-night .variable.cm-hash-0, .cm-s-june-night .variable-2.cm-hash-0, .cm-s-june-night .def.cm-hash-0 {
-  color: #FFCCCC; }
-.cm-s-june-night .variable.cm-hash-1, .cm-s-june-night .variable-2.cm-hash-1, .cm-s-june-night .def.cm-hash-1 {
-  color: #FFDBCC; }
-.cm-s-june-night .variable.cm-hash-2, .cm-s-june-night .variable-2.cm-hash-2, .cm-s-june-night .def.cm-hash-2 {
-  color: #FFEBCC; }
-.cm-s-june-night .variable.cm-hash-3, .cm-s-june-night .variable-2.cm-hash-3, .cm-s-june-night .def.cm-hash-3 {
-  color: #FFFACC; }
-.cm-s-june-night .variable.cm-hash-4, .cm-s-june-night .variable-2.cm-hash-4, .cm-s-june-night .def.cm-hash-4 {
-  color: #F5FFCC; }
-.cm-s-june-night .variable.cm-hash-5, .cm-s-june-night .variable-2.cm-hash-5, .cm-s-june-night .def.cm-hash-5 {
-  color: #E6FFCC; }
-.cm-s-june-night .variable.cm-hash-6, .cm-s-june-night .variable-2.cm-hash-6, .cm-s-june-night .def.cm-hash-6 {
-  color: #D6FFCC; }
-.cm-s-june-night .variable.cm-hash-7, .cm-s-june-night .variable-2.cm-hash-7, .cm-s-june-night .def.cm-hash-7 {
-  color: #CCFFD1; }
-.cm-s-june-night .variable.cm-hash-8, .cm-s-june-night .variable-2.cm-hash-8, .cm-s-june-night .def.cm-hash-8 {
-  color: #CCFFE0; }
-.cm-s-june-night .variable.cm-hash-9, .cm-s-june-night .variable-2.cm-hash-9, .cm-s-june-night .def.cm-hash-9 {
-  color: #CCFFF0; }
-.cm-s-june-night .variable.cm-hash-10, .cm-s-june-night .variable-2.cm-hash-10, .cm-s-june-night .def.cm-hash-10 {
-  color: #CCFFFF; }
-.cm-s-june-night .variable.cm-hash-11, .cm-s-june-night .variable-2.cm-hash-11, .cm-s-june-night .def.cm-hash-11 {
-  color: #CCF0FF; }
-.cm-s-june-night .variable.cm-hash-12, .cm-s-june-night .variable-2.cm-hash-12, .cm-s-june-night .def.cm-hash-12 {
-  color: #CCE0FF; }
-.cm-s-june-night .variable.cm-hash-13, .cm-s-june-night .variable-2.cm-hash-13, .cm-s-june-night .def.cm-hash-13 {
-  color: #CCD1FF; }
-.cm-s-june-night .variable.cm-hash-14, .cm-s-june-night .variable-2.cm-hash-14, .cm-s-june-night .def.cm-hash-14 {
-  color: #D6CCFF; }
-.cm-s-june-night .variable.cm-hash-15, .cm-s-june-night .variable-2.cm-hash-15, .cm-s-june-night .def.cm-hash-15 {
-  color: #E6CCFF; }
-.cm-s-june-night .variable.cm-hash-16, .cm-s-june-night .variable-2.cm-hash-16, .cm-s-june-night .def.cm-hash-16 {
-  color: #F5CCFF; }
-.cm-s-june-night .variable.cm-hash-17, .cm-s-june-night .variable-2.cm-hash-17, .cm-s-june-night .def.cm-hash-17 {
-  color: #FFCCFA; }
-.cm-s-june-night .variable.cm-hash-18, .cm-s-june-night .variable-2.cm-hash-18, .cm-s-june-night .def.cm-hash-18 {
-  color: #FFCCEB; }
-.cm-s-june-night .variable.cm-hash-19, .cm-s-june-night .variable-2.cm-hash-19, .cm-s-june-night .def.cm-hash-19 {
-  color: #FFCCDB; }
+/* Semantic Highlighting */
+.cm-s-june-night span {
+  /*     &.cm-variable, &.cm-variable-2, &.cm-def { */
+  /*     } */ }
+  .cm-s-june-night span.cm-hash-0 {
+    color: #E2E2E2; }
+  .cm-s-june-night span.cm-hash-1 {
+    color: #A1FFF7; }
+  .cm-s-june-night span.cm-hash-2 {
+    color: #FFD4FF; }
+  .cm-s-june-night span.cm-hash-3 {
+    color: #F6FEC3; }
+  .cm-s-june-night span.cm-hash-4 {
+    color: #FFD6B3; }
+  .cm-s-june-night span.cm-hash-5 {
+    color: #B7E9FF; }
+  .cm-s-june-night span.cm-hash-6 {
+    color: #FFDBDC; }
+  .cm-s-june-night span.cm-hash-7 {
+    color: #B6F0C6; }
+  .cm-s-june-night span.cm-hash-8 {
+    color: #E5FFF7; }
+  .cm-s-june-night span.cm-hash-9 {
+    color: #D2E0FF; }
+  .cm-s-june-night span.cm-hash-10 {
+    color: #FFF3D9; }
+  .cm-s-june-night span.cm-hash-11 {
+    color: #F6EBFF; }
+  .cm-s-june-night span.cm-hash-12 {
+    color: #F3E2A9; }
+  .cm-s-june-night span.cm-hash-13 {
+    color: #D6E8CC; }
+  .cm-s-june-night span.cm-hash-14 {
+    color: #FFEBDF; }
+  .cm-s-june-night span.cm-hash-15 {
+    color: #E2F5FF; }
+  .cm-s-june-night span.cm-hash-16 {
+    color: #95F1FF; }
+  .cm-s-june-night span.cm-hash-17 {
+    color: #FAFFF6; }
+  .cm-s-june-night span.cm-hash-18 {
+    color: #C1F1E0; }
+  .cm-s-june-night span.cm-hash-19 {
+    color: #FFD1C0; }
